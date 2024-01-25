@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model anime {
+  id            Int     @id @default(autoincrement())
+  anime_id      String? @db.VarChar(10)
+  anime_name    String? @db.VarChar(100)
+  anime_release String? @db.VarChar(10)
+}
+
+model anime_details {
+  id           Int     @id @default(autoincrement())
+  anime_id     String? @db.VarChar(10)
+  anime_genre  String? @db.VarChar(50)
+  anime_rating Int?
+}

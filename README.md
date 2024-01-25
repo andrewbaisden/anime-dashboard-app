@@ -2,7 +2,24 @@
 
 ![Anime Dashboard App](/img/dashboard-app.jpeg 'Anime Dashboard App')
 
-This codebase is for the "A day in the life of a developer - Building a dashboard app with Node.js, Django and Next.js" article.
+This codebase is for the "A day in the life of a developer - Building a dashboard app with Node.js, Django and Next.js" article which you can find on my blogs:
+
+[DEV Blog](https://dev.to/andrewbaisden/a-day-in-the-life-of-a-developer-building-a-dashboard-app-with-sql-nodejs-django-and-nextjs-5en7)
+
+[Hashnode Blog](https://andrewbaisden.hashnode.dev/a-day-in-the-life-of-a-developer-building-a-dashboard-app-with-sql-nodejs-django-and-nextjs)
+
+[Medium Blog](https://andrewbaisden.medium.com/a-day-in-the-life-of-a-developer-building-a-dashboard-app-with-sql-node-js-django-and-next-js-728cc341024c)
+
+[CodeNewbie Blog](https://community.codenewbie.org/andrewbaisden/a-day-in-the-life-of-a-developer-building-a-dashboard-app-with-sql-nodejs-django-and-nextjs-2318)
+
+## Prerequisites
+
+- PostgreSQL installed
+- MySQL installed
+- SQLite installed
+- Database Management System installed (Azure Data Studio or alternative)
+- Node and npm installed
+- Python installed with [virtualenv](https://pypi.org/project/virtualenv/) or an alternative
 
 ## Project install and setup
 

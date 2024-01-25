@@ -23,6 +23,8 @@ This codebase is for the "A day in the life of a developer - Building a dashboar
 
 ## Project install and setup
 
+> You might need to use a different Python command when using Python it depends on how your computer is configured. For example you might need to use the command `python3` or `python`. The same applies to using `pip` or `pip3`.
+
 1. Run the command `npm install` inside of the `manga-backend-express` and `manga-client` folders to install the project dependencies
 2. Run the command `npm run dev` to start the servers for `manga-backend-express` and `manga-client` directories
 3. Run the command `python3 manage.py runserver` from the directory `manga-backend-django/manga` to start the Django server
